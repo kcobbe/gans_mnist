@@ -27,11 +27,11 @@ To change the number of unsupervised labels to N (default 10):
 
 To learn semi-supervised digit labels:
 
-    $ python train_semi_supervised.py
+    $ python train_semi_supervised_gan.py
 
 To change the number of training labels per class to N (default 10):
 
-    $ python train_semi_supervised.py --class-labels N
+    $ python train_semi_supervised_gan.py --class-labels N
     
 ## Unsupervised results
 
